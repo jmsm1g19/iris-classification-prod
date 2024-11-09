@@ -87,8 +87,3 @@ if st.button('Predict Species'):
         'Value (cm)': [sepal_length, sepal_width, petal_length, petal_width]
     }
     st.table(measurements_df)
-
-# def run_fastapi():
-#     config = uvicorn.Config(app, host="0.0.0.0", port=8000, log_level="info")
-#     server = uvicorn.Server(config)
-#     server.run()
